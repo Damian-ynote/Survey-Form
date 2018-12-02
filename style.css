@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a9d7d1;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+p {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.container {
+    font-weight: 300;
+    width: 80vw;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto 3em auto;
+    padding: 1em;
+
+}
+
+.in-line {
+    display: flex;
+}
+
+.labels {
+    text-align: right;
+    width: 45%;
+    margin-top: .8em;
+    padding: .4em;
+}
+
+.right {
+    width: 55%;
+    text-align: left;
+}
+
+.input_ {
+    margin: 1em;
+    width: 25em;
+    padding: .5em .5em .5em .5em;
+}
+
+.dropdown {
+    margin: 1.5em 1em 1em 1em;
+    padding: .5em .5em .5em .5em;
+    height: 3em;
+    width: 10em;
+}
+
+ul {
+    padding: 0 0 0 .7em;
+}
+
+ul#rating {
+    margin-bottom: 2em;
+}
+
+.textarea {
+    margin: 1em;
+    padding: .5em .5em .5em .5em;
+    width: 20em;
+    height: 5em;
+}
+
+#submit {
+    color: white;
+    background-color: #59ace0;
+    padding: .7em 1.2em;
+    border: none;
+    border-radius: 2px;
+    font-size: 1em;
+    margin: .8em;
+}
+
+@media screen and (max-width: 833px) {
+    .input_ {
+      width: 80%;
+    }
+    select {
+      width: 90%;
+    }
+    .textarea {
+        width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .labels {
+      width: 100%;
+      text-align: left;
+    }
+    .right {
+      width: 80%;
+      float: left;
+    }
+    .input_ {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+  }
+
